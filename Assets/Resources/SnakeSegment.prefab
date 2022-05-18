@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 4631742160356633097}
   - component: {fileID: 4470865529894415438}
   - component: {fileID: 8745863098783375526}
-  - component: {fileID: -6258966260633254455}
-  - component: {fileID: -1350275050831705553}
+  - component: {fileID: 4292920056827918831}
+  - component: {fileID: 8809940669218790990}
   m_Layer: 0
   m_Name: SnakeSegment
   m_TagString: Snake
@@ -113,7 +113,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.75, y: 0.75}
   m_EdgeRadius: 0
---- !u!114 &-6258966260633254455
+--- !u!114 &4292920056827918831
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -132,11 +132,11 @@ MonoBehaviour:
   OwnershipTransfer: 0
   observableSearch: 2
   ObservedComponents:
-  - {fileID: -1350275050831705553}
+  - {fileID: 8809940669218790990}
   sceneViewId: 0
   InstantiationId: 0
   isRuntimeInstantiated: 0
---- !u!114 &-1350275050831705553
+--- !u!114 &8809940669218790990
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -152,7 +152,7 @@ MonoBehaviour:
     SynchronizeEnabled: 1
     TeleportEnabled: 1
     TeleportIfDistanceGreaterThan: 3
-    InterpolateOption: 4
+    InterpolateOption: 3
     InterpolateMoveTowardsSpeed: 1
     InterpolateLerpSpeed: 1
     ExtrapolateOption: 0
@@ -160,7 +160,7 @@ MonoBehaviour:
     ExtrapolateIncludingRoundTripTime: 1
     ExtrapolateNumberOfStoredPositions: 1
   m_RotationModel:
-    SynchronizeEnabled: 1
+    SynchronizeEnabled: 0
     InterpolateOption: 1
     InterpolateRotateTowardsSpeed: 180
     InterpolateLerpSpeed: 5
